@@ -1,0 +1,204 @@
+    1  git status
+    2  cd f:
+    3  cd DevOps/DevOps-Training/Git/
+    4  ls
+    5  ls -la
+    6  git config -global user.name "RajeshR"
+    7  git config --global user.name "RajeshR"
+    8  git config --global user.email rajeshaqua007@gmail.com
+    9  git config --global core.editor notepad++
+   10  git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multilnst -nosession"
+   11  git config --list
+   12  git status
+   13  git init
+   14  git status
+   15  notepad++ first.tzt
+   16  notepad++ first.txt
+   17  notepad first.txt
+   18  ls -la
+   19  git status
+   20  git add first.txt 
+   21  git status
+   22  git commit first.txt 
+   23  git status
+   24  git status
+   25  git status
+   26  ls
+   27  notepad first.txt 
+   28  git status
+   29  git add first.txt 
+   30  git status
+   31  git commit first.txt 
+   32  git commit first.txt -m "This is my First Modification"
+   33  git status
+   34  notepad first1.txt
+   35  git status
+   36  git add -A *
+   37  git status
+   38  git add -A .
+   39  git status
+   40  git commit -m "2nd commit in Git"
+   41  rm first1.txt 
+   42  git stuatus
+   43  notepad first1.txt
+   44  git status
+   45  rm first1.txt 
+   46  ls -la
+   47  git status
+   48  git add -A .
+   49  git status
+   50  git commit -m "Commit for Deletion"
+   51  git status
+   52  notepad first.txt 
+   53  git status
+   54  git add first.txt 
+   55  git status
+   56  notepad first.txt 
+   57  git status
+   58  get reset first.txt 
+   59  git status
+   60  git reset --help
+   61  git status
+   62  git reset --help
+   63  get reset first.txt 
+   64  git reset first.txt
+   65  clear
+   66  git status
+   67  get commit -A *
+   68  git commit -A *
+   69  git commit -a *
+   70  git commit first.txt 
+   71  git commit first.txt -m "Staging Roll back"
+   72  git status
+   73  clear
+   74  notepad first.txt 
+   75  git status
+   76  git add -A *
+   77  git status
+   78  notepad first.txt 
+   79  git status
+   80  clear
+   81  git status
+   82  git reset first.txt
+   83  git status
+   84  git status
+   85  git commit -A .
+   86  git add -A .
+   87  git status
+   88  cat first.txt 
+   89  git checkout -- first.txt
+   90  git status
+   91  cat first.txt 
+   92  git status
+   93  notepad first.txt 
+   94  git status
+   95  git checkout -- first.txt
+   96  git status
+   97  cat first.txt 
+   98  notepad first.txt 
+   99  notepad first.txt 
+  100  ` clear
+  101  clear
+  102  git log
+  103  git checkout c9b72f8c0160edd07a2b6909551cdcfceb89ba69 first.txt
+  104  cat first.txt 
+  105  git status
+  106  git log
+  107  clear
+  108  git log
+  109  git checkout 2d1930192c55a8a2c2f1d94308001a07e4a5e36c
+  110  git checkout 2d1930192c55a8a2c2f1d94308001a07e4a5e36c first.txt
+  111  ls -l
+  112  git checkout 17c562ef343aba0d7651285e9419d141172ab64f
+  113  ls
+  114  git checkout 17c562ef343aba0d7651285e9419d141172ab64f first.txt
+  115  ls -l
+  116  cat first.txt 
+  117  cd f:
+  118  ls
+  119  cd DevOps/DevOps-Training/Git
+  120  git log --stat
+  121  git log -ll
+  122  ls
+  123  cd ..
+  124  ls
+  125  cd ..
+  126  ls
+  127  cd mysecond
+  128  git log 
+  129  git branch
+  130  cd ~/.ssh
+  131  ssh -keygen -o
+  132  ssh-keygen -o
+  133  git init
+  134  git config --global user.name Rajesh"
+  135  git config --global user.name "Rajesh"
+  136  git config --global user.email rrajesh.org@gmail.com
+  137  git config --global core.editor notepad
+  138  git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multilnt -nosession"
+  139  git config -l
+  140  git config --list
+  141  clear
+  142  git remote add origin ""
+  143  git remote add origin "https://github.com/rajeshr14/repo1.git"
+  144  git remote
+  145  git remote add origin "https://github.com/rrajesh82/myrepo.git"
+  146  exit
+  147  git init
+  148  git config --global user.name "Rajesh"
+  149  git config --global user.email rajeshaqua007@gmail.com
+  150  git config --global core.editor notepad
+  151  git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multilnt -nosession"
+  152  it remore add origin "https://github.com/rajeshr14/repo1.git"
+  153  git remore add origin "https://github.com/rajeshr14/repo1.git"
+  154  git remote add origin "https://github.com/rajeshr14/repo1.git"
+  155  git pull origin master
+  156  clear
+  157  git status
+  158  git add repo1.txt
+  159  git status
+  160  git commit -m "first repo1 commit"
+  161  git status
+  162  git status
+  163  git status
+  164  clear
+  165  git add -A
+  166  git status
+  167  git status
+  168  git status
+  169  git commit -A
+  170  git commit -a -m "3files and 2touch files added to commit"
+  171  clear
+  172  git log
+  173  clear
+  174  git branch repobranch
+  175  git checkout repobranch
+  176  git checkout master
+  177  git status
+  178  git commit -a -m "del of file1 and file2"
+  179  git status
+  180  git checkout repobranch
+  181  ls
+  182  git checkout master
+  183  git checkout repobranch
+  184  git status
+  185  git commit -a -m "del of files"
+  186  git status
+  187  clear
+  188  touch file1.txt file2.txt file3.txt
+  189  git status
+  190  get add -A
+  191  git add -A
+  192  git status
+  193  git commit -a -m "first commit in repobranch"\
+  194  git commit -a -m "first commit in repobranch"
+  195  git status
+  196  clear
+  197  git log
+  198  clear
+  199  git checkout master
+  200  git checkout repobranch
+  201  history
+  202  history > history.txt
+  203* history  > history.txt
+  204  history > history.txt

@@ -1,1 +1,1 @@
-Test for rebasing! 2
+Test for rebasing! 2, Merge test!

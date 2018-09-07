@@ -1,1 +1,1 @@
-Third repo file! Git Checkout Test!
+Third repo file!
